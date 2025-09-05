@@ -1,0 +1,7 @@
+psycopg2-binary
+pandas
+Pillow
+reportlab
+openpyxl
+python-barcode
+python-dotenv
