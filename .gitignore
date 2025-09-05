@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Visual Studio / OS
+.vs/
+*.user
+*.suo
+*.log
+Thumbs.db
+
+# Secrets/backups
+.env
+*.bak
+*backup*
+
+# Generated barcodes and misc
+barcode_*.png
+*.meta
