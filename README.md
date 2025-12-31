@@ -1,3 +1,94 @@
+# EP Inventory Management System
+
+## Project Overview
+
+The EP Inventory Management System is a Python-based application designed to manage, track, and export inventory data using a structured SQL database. The project simulates a real-world inventory workflow commonly found in retail, logistics, and operational environments, where accurate data handling, validation, and reporting are critical.
+
+This project demonstrates my ability to work with structured datasets, interact with SQL databases, apply data validation and cleaning logic, and prepare data for downstream analysis or reporting. While operational in nature, the architecture and data workflows directly align with analytics and business intelligence use cases.
+
+---
+
+## Key Features
+
+* Create, read, update, and delete (CRUD) inventory records
+* SQL-based data storage and retrieval
+* Modular service-oriented architecture
+* Inventory import and export functionality
+* Data backup and recovery support
+* Barcode lookup and validation
+
+---
+
+## Technologies Used
+
+* **Python** – Core application logic and services
+* **SQL** – Structured data storage and querying
+* **SQLite-style database architecture** (via Python DB connection)
+* **Modular service design** – Separation of database, business logic, and utilities
+
+---
+
+## Project Structure
+
+```
+EP_Inventory_Management/
+├── db/
+│   ├── config.py           # Database configuration
+│   ├── connection.py      # Database connection handling
+│   └── queries.py         # Centralized SQL queries
+├── services/
+│   ├── inventory_service.py  # Core inventory logic
+│   ├── export_service.py     # Data export functionality
+│   ├── backup_service.py     # Backup and recovery
+│   └── barcode_service.py    # Barcode handling and validation
+├── utils/
+│   └── formatting.py      # Output formatting utilities
+├── inventory_import.py    # Inventory import workflow
+├── Inventory_Management_Fixed.py  # Main application entry point
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Data & Analytics Relevance
+
+Although this project focuses on inventory operations, it directly supports data analytics workflows:
+
+* **SQL querying:** Structured queries for extracting, filtering, and validating data
+* **Data quality checks:** Handling duplicates, missing values, and invalid entries
+* **Data preparation:** Exporting clean datasets suitable for reporting or analysis
+* **Scalable design:** Modular architecture that can support analytical extensions such as summary metrics, trend analysis, or BI dashboards
+
+These same patterns are commonly used in analytics pipelines and reporting systems.
+
+---
+
+## Example Use Cases
+
+* Identifying low-stock items using SQL filters
+* Exporting inventory datasets for reporting or dashboarding
+* Validating incoming inventory data before storage
+* Maintaining historical inventory backups
+
+---
+
+## Future Enhancements
+
+* Add aggregate SQL queries (e.g., stock trends, reorder frequency)
+* Integrate basic analytics summaries
+* Connect exported data to BI tools or dashboards
+* Add logging and monitoring for data operations
+
+---
+
+## Author
+
+**Zachary Maness**
+
+This project was developed to demonstrate practical experience with Python, SQL, and data workflows relevant to junior data analyst and data scientist roles.
+
+
 # Inventory Management (Tkinter + PostgreSQL)
 
 Desktop inventory manager with barcode generation/printing, CSV/ProNest export, and backup/restore.
